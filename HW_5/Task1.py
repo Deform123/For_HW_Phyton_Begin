@@ -9,7 +9,7 @@
 # b = int(input('Введите второе число : '))
 
 def stepen (a, b):
-    if b == 1:
+    if b == 1 or b == 0:
         return (a)
     return(a * stepen(a, b-1))
 print(stepen(3, 5))
